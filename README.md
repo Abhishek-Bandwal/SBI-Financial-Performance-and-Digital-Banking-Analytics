@@ -1,6 +1,6 @@
 # SBI Financial Performance & Digital Banking Analytics
 
-**An Independent Business Analytics Portfolio Project | Power BI | Financial Analytics**
+**Independent Business Analytics Portfolio Project | Power BI | Financial Analytics**
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The analysis follows a structured Business Analyst approach, covering business p
 
 Financial institutions operate in a competitive and evolving banking environment. Understanding financial performance, credit quality, and digital banking activity is essential for evaluating business performance and identifying meaningful trends.
 
-However, financial data and digital banking statistics are often presented across different sources and reporting formats, making it difficult to analyze them together.
+Financial data and digital banking statistics are often presented across different sources and reporting formats, making comparative analysis challenging.
 
 This project brings together historical financial indicators and RBI digital banking statistics into a structured analytical solution to support comparative analysis and business understanding.
 
@@ -28,8 +28,6 @@ This project brings together historical financial indicators and RBI digital ban
 - Translate analytical findings into practical business recommendations.
 
 ## Banks Covered
-
-The financial analysis covers six Indian banks:
 
 | Bank | Category |
 |---|---|
@@ -52,7 +50,7 @@ The financial analysis covers six Indian banks:
 
 ### Digital Banking Data
 
-RBI historical digital banking statistics were used to analyze the following channels:
+RBI historical digital banking statistics were used to analyze:
 
 - NEFT
 - RTGS
@@ -69,51 +67,51 @@ The project includes a seven-page Power BI report designed to provide an organiz
 
 ### Dashboard Preview
 
+The screenshots below are taken from the actual Power BI dashboard developed for this project.
+
 ### 1. Executive Overview
 
-![Executive Overview](Dashboard_Screenshots/Executive_Overview.png)
+![Executive Overview](10_Solution_Design_Development/03_Dashboard_Screenshots/01_Executive_Overview.png)
 
-Provides a consolidated overview of the financial performance of the selected banks and highlights the major analytical indicators.
+Provides a consolidated overview of the financial performance of the selected banks and highlights major analytical indicators.
 
 ### 2. Financial Performance
 
-![Financial Performance](Dashboard_Screenshots/Financial_Performance.png)
+![Financial Performance](10_Solution_Design_Development/03_Dashboard_Screenshots/02_Financial_Performance.png)
 
 Examines financial performance indicators and enables comparative analysis across the selected banks and reporting periods.
 
 ### 3. Credit & Asset Quality
 
-![Credit and Asset Quality](Dashboard_Screenshots/Credit_Asset_Quality.png)
+![Credit and Asset Quality](10_Solution_Design_Development/03_Dashboard_Screenshots/03_Credit_and_Asset_Quality.png)
 
 Focuses on credit-related indicators and asset quality to support the evaluation of banking stability and lending performance.
 
-### 4. RBI NEFT Analysis
+### 4. RBI NEFT Analytics
 
-![RBI NEFT Analysis](Dashboard_Screenshots/RBI_NEFT.png)
+![RBI NEFT Analytics](10_Solution_Design_Development/03_Dashboard_Screenshots/04_RBI_NEFT_Analytics.png)
 
 Analyzes historical NEFT transaction trends using RBI data.
 
-### 5. RBI RTGS Analysis
+### 5. RBI RTGS Analytics
 
-![RBI RTGS Analysis](Dashboard_Screenshots/RBI_RTGS.png)
+![RBI RTGS Analytics](10_Solution_Design_Development/03_Dashboard_Screenshots/05_RBI_RTGS_Analytics.png)
 
 Examines RTGS transaction activity and historical trends.
 
-### 6. RBI Mobile Banking Analysis
+### 6. RBI Mobile Banking Analytics
 
-![RBI Mobile Banking Analysis](Dashboard_Screenshots/RBI_Mobile.png)
+![RBI Mobile Banking Analytics](10_Solution_Design_Development/03_Dashboard_Screenshots/06_RBI_Mobile_Banking_Analytics.png)
 
 Evaluates historical mobile banking transaction trends.
 
-### 7. RBI Internet Banking Analysis
+### 7. RBI Internet Banking Analytics
 
-![RBI Internet Banking Analysis](Dashboard_Screenshots/RBI_Internet.png)
+![RBI Internet Banking Analytics](10_Solution_Design_Development/03_Dashboard_Screenshots/07_RBI_Internet_Banking_Analytics.png)
 
 Analyzes historical internet banking transaction activity.
 
 ## Key Analytical Areas
-
-The project focuses on the following areas:
 
 ### Financial Performance
 
@@ -176,13 +174,13 @@ The project was developed through the following analytical workflow:
 
 The detailed project report documents the analytical process, financial findings, digital banking analysis, dashboard walkthrough, recommendations, testing summary, and project limitations.
 
-**[View the Project Closure & Business Recommendations Report](12_Recommendations_Project_Closure/SBI_Project_Closure_and_Business_Recommendations_Report.pdf)**
+[View the Project Closure & Business Recommendations Report](12_Recommendations_Project_Closure/SBI_Project_Closure_and_Business_Recommendations_Report.pdf)
 
-## Power BI Dashboard
+## Interactive Power BI Dashboard
 
 The interactive dashboard is available as a Power BI Desktop file.
 
-**[Open the Power BI Dashboard File](10_Solution_Design_Development/01_PowerBI_Dashboard/SBI_Financial_Analytics_Dashboard.pbix)**
+[Open the Power BI Dashboard File](10_Solution_Design_Development/01_PowerBI_Dashboard/SBI_Financial_Analytics_Dashboard.pbix)
 
 To explore the dashboard interactively, download the `.pbix` file and open it using Microsoft Power BI Desktop.
 
@@ -194,7 +192,7 @@ The project underwent manual testing covering:
 - Dashboard visual and functional checks
 - Simulated User Acceptance Testing (UAT)
 
-The testing summary recorded 28 manual test cases as passed, with no failed cases reported in the documented testing results.
+The documented testing summary recorded 28 manual test cases as passed, with no failed cases reported.
 
 Testing was performed as part of this independent portfolio project. Simulated UAT does not represent acceptance by any bank or external stakeholder.
 
@@ -202,7 +200,7 @@ Testing was performed as part of this independent portfolio project. Simulated U
 
 - The analysis is based on publicly available historical data.
 - The project does not use confidential or customer-level banking information.
-- Financial and digital banking data may have differences in reporting definitions, periods, and availability.
+- Financial and digital banking data may differ in reporting definitions, periods, and availability.
 - Missing data is treated as a limitation rather than assumed to represent zero activity.
 - The analysis represents independent analytical interpretation and should not be considered official financial advice or institutional assessment.
 - The project does not claim to represent the internal systems, processes, or decisions of any bank.
@@ -222,4 +220,3 @@ All findings, interpretations, and recommendations represent independent analyti
 **Abhishek Bandwal**
 
 Business Analytics | Financial Analytics | Power BI | SQL | Data Analysis
-
