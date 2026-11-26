@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+<rect width="1800" height="1000" fill="#FFFFFF"/>
+<text x="40" y="42" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#17365D">SBI Financial Performance &amp; Digital Banking Analytics — Logical Data Model</text>
+<text x="40" y="70" font-family="Arial,sans-serif" font-size="17" fill="#243447">Proposed star schema | annual financial fact separated from monthly RBI facts</text>
+<rect x="35" y="535" width="430" height="315" rx="14" fill="#F4F7FA" stroke="#C7D3DF" stroke-width="2"/>
+<text x="53" y="562" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1F4E78">Financial KPI model</text>
+<rect x="480" y="535" width="1280" height="315" rx="14" fill="#F4F7FA" stroke="#C7D3DF" stroke-width="2"/>
+<text x="498" y="562" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1F4E78">Monthly RBI activity</text>
+<polyline points="850,260 850,520 455,520 455,700 445,700" fill="none" stroke="#44647F" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="850,260 850,520 640,520 640,565" fill="none" stroke="#44647F" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="850,260 850,520 950,520 950,565" fill="none" stroke="#44647F" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="850,260 850,520 1260,520 1260,565" fill="none" stroke="#44647F" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="850,260 850,520 1580,520 1580,565" fill="none" stroke="#44647F" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="240,490 240,565" fill="none" stroke="#9A6A00" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1125,490 1765,490 1765,855 640,855 640,835" fill="none" stroke="#007F8B" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1125,490 1765,490 1765,855 950,855 950,835" fill="none" stroke="#007F8B" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1125,490 1765,490 1765,855 1260,855 1260,835" fill="none" stroke="#007F8B" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1125,490 1765,490 1765,855 1580,855 1580,835" fill="none" stroke="#007F8B" stroke-width="4" stroke-linejoin="round"/>
+<text x="865" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44647F">1</text>
+<text x="650" y="550" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44647F">*</text>
+<text x="960" y="550" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44647F">*</text>
+<text x="1270" y="550" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44647F">*</text>
+<text x="1590" y="550" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#44647F">*</text>
+<text x="253" y="507" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9A6A00">1</text>
+<text x="253" y="552" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#9A6A00">*</text>
+<text x="1140" y="507" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#007F8B">1</text>
+<text x="650" y="822" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#007F8B">*</text>
+<text x="960" y="822" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#007F8B">*</text>
+<text x="1270" y="822" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#007F8B">*</text>
+<text x="1590" y="822" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#007F8B">*</text>
+<rect x="650" y="80" width="400" height="180" rx="10" fill="#DCEAF6" stroke="#17365D" stroke-width="2.5"/>
+<path d="M660,80 H1040 Q1050,80 1050,124 H650 V90 Q650,80 660,80" fill="#17365D"/>
+<text x="665" y="109" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Dim_Bank</text>
+<text x="666" y="150" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK  BankKey</text>
+<text x="666" y="179" font-family="Arial,sans-serif" font-size="17" fill="#243447">CanonicalBankName</text>
+<text x="666" y="208" font-family="Arial,sans-serif" font-size="17" fill="#243447">IdentityStatus</text>
+<text x="666" y="237" font-family="Arial,sans-serif" font-size="17" fill="#243447">FinancialPeerFlag</text>
+<rect x="75" y="280" width="330" height="210" rx="10" fill="#DCEAF6" stroke="#17365D" stroke-width="2.5"/>
+<path d="M85,280 H395 Q405,280 405,324 H75 V290 Q75,280 85,280" fill="#17365D"/>
+<text x="90" y="309" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Dim_Financial_Year</text>
+<text x="91" y="350" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK  FinancialYearKey</text>
+<text x="91" y="379" font-family="Arial,sans-serif" font-size="17" fill="#243447">FinancialYearLabel</text>
+<text x="91" y="408" font-family="Arial,sans-serif" font-size="17" fill="#243447">StartYear / EndYear</text>
+<text x="91" y="437" font-family="Arial,sans-serif" font-size="17" fill="#243447">FinancialYearEndDate</text>
+<rect x="900" y="280" width="450" height="210" rx="10" fill="#DCEAF6" stroke="#17365D" stroke-width="2.5"/>
+<path d="M910,280 H1340 Q1350,280 1350,324 H900 V290 Q900,280 910,280" fill="#17365D"/>
+<text x="915" y="309" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Dim_Month</text>
+<text x="916" y="350" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK  MonthKey</text>
+<text x="916" y="379" font-family="Arial,sans-serif" font-size="17" fill="#243447">CalendarDate</text>
+<text x="916" y="408" font-family="Arial,sans-serif" font-size="17" fill="#243447">MonthNumber / MonthName</text>
+<text x="916" y="437" font-family="Arial,sans-serif" font-size="17" fill="#243447">CalendarYear</text>
+<text x="916" y="466" font-family="Arial,sans-serif" font-size="17" fill="#243447">OctSepPeriodLabel</text>
+<rect x="60" y="565" width="385" height="270" rx="10" fill="#FFFFFF" stroke="#17365D" stroke-width="2.5"/>
+<path d="M70,565 H435 Q445,565 445,609 H60 V575 Q60,565 70,565" fill="#1F4E78"/>
+<text x="75" y="594" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Fact_Financial_KPI</text>
+<text x="76" y="635" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  BankKey</text>
+<text x="76" y="664" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  FinancialYearKey</text>
+<text x="76" y="693" font-family="Arial,sans-serif" font-size="17" fill="#243447">23 source KPI fields</text>
+<text x="76" y="722" font-family="Arial,sans-serif" font-size="17" fill="#243447">Source ID / Bank / Financial Year</text>
+<text x="76" y="751" font-family="Arial,sans-serif" font-size="17" fill="#243447">Grain: bank × financial year</text>
+<rect x="500" y="565" width="280" height="270" rx="10" fill="#FFFFFF" stroke="#17365D" stroke-width="2.5"/>
+<path d="M510,565 H770 Q780,565 780,609 H500 V575 Q500,565 510,565" fill="#1F4E78"/>
+<text x="515" y="594" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Fact_Mobile_Banking</text>
+<text x="516" y="635" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  BankKey</text>
+<text x="516" y="664" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  MonthKey</text>
+<text x="516" y="693" font-family="Arial,sans-serif" font-size="17" fill="#243447">Source ID / Bank Name</text>
+<text x="516" y="722" font-family="Arial,sans-serif" font-size="17" fill="#243447">Transaction Volume / Amount</text>
+<text x="516" y="751" font-family="Arial,sans-serif" font-size="17" fill="#243447">Active Customers (monthly snapshot)</text>
+<rect x="810" y="565" width="280" height="270" rx="10" fill="#FFFFFF" stroke="#17365D" stroke-width="2.5"/>
+<path d="M820,565 H1080 Q1090,565 1090,609 H810 V575 Q810,565 820,565" fill="#1F4E78"/>
+<text x="825" y="594" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Fact_Internet_Banking</text>
+<text x="826" y="635" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  BankKey</text>
+<text x="826" y="664" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  MonthKey</text>
+<text x="826" y="693" font-family="Arial,sans-serif" font-size="17" fill="#243447">Source ID / Bank Name</text>
+<text x="826" y="722" font-family="Arial,sans-serif" font-size="17" fill="#243447">Transaction Volume / Amount</text>
+<text x="826" y="751" font-family="Arial,sans-serif" font-size="17" fill="#243447">Active Customers (monthly snapshot)</text>
+<rect x="1120" y="565" width="280" height="270" rx="10" fill="#FFFFFF" stroke="#17365D" stroke-width="2.5"/>
+<path d="M1130,565 H1390 Q1400,565 1400,609 H1120 V575 Q1120,565 1130,565" fill="#1F4E78"/>
+<text x="1135" y="594" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Fact_NEFT</text>
+<text x="1136" y="635" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  BankKey</text>
+<text x="1136" y="664" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  MonthKey</text>
+<text x="1136" y="693" font-family="Arial,sans-serif" font-size="17" fill="#243447">Source ID / Bank Name</text>
+<text x="1136" y="722" font-family="Arial,sans-serif" font-size="17" fill="#243447">Inward volume / amount</text>
+<text x="1136" y="751" font-family="Arial,sans-serif" font-size="17" fill="#243447">Outward volume / amount</text>
+<rect x="1430" y="565" width="300" height="270" rx="10" fill="#FFFFFF" stroke="#17365D" stroke-width="2.5"/>
+<path d="M1440,565 H1720 Q1730,565 1730,609 H1430 V575 Q1430,565 1440,565" fill="#1F4E78"/>
+<text x="1445" y="594" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Fact_RTGS</text>
+<text x="1446" y="635" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  BankKey</text>
+<text x="1446" y="664" font-family="Arial,sans-serif" font-size="17" fill="#243447">PK/FK  MonthKey</text>
+<text x="1446" y="693" font-family="Arial,sans-serif" font-size="17" fill="#243447">Source ID / Bank Name</text>
+<text x="1446" y="722" font-family="Arial,sans-serif" font-size="17" fill="#243447">Inward / outward segments &amp; totals</text>
+<text x="1446" y="751" font-family="Arial,sans-serif" font-size="17" fill="#243447">Inward / outward shares</text>
+<rect x="40" y="900" width="1720" height="68" rx="9" fill="#FFF2CC" stroke="#BF9000" stroke-width="2"/>
+<text x="60" y="928" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#7F6000">RBI_Source_Bank_Map — load-time mapping mechanism</text>
+<text x="60" y="953" font-family="Arial,sans-serif" font-size="16" fill="#4D4D4D">Assigns BankKey before fact loading; not a reporting relationship. Preserve prepared source ID and verbatim bank label in each RBI fact.</text>
+<text x="520" y="875" font-family="Arial,sans-serif" font-size="15" fill="#007F8B">1 : *  Dim_Month to each monthly RBI fact (connector routed below the fact group)</text>
+</svg>
